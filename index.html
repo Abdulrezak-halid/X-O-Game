@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X O Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div id="aaa" class="score">
+        <div  class="scr playerOne">
+            
+            <p id="playerOne">Player 1 : </p>
+        </div>
+
+        
+        <div class="scr playerTwo">
+            <p id="playerTwo">Player 2 : </p>
+        </div>
+    </div>
+   
+
+    <div id="prim" class="game">
+        <div class=" game">
+            <span> <i class="fa-regular fa-x"> </i> </span>
+          
+            <span> <i class="fa-regular fa-o"> </i></span>
+        </div>
+        <div class="players">
+          
+           
+          
+            <div class="turn">
+                <div  class="SwitchTurn" ></div>
+            </div>
+        </div>
+    
+         <div class="row1" > 
+            <div class="square" id="item1" onclick="StartGame(this.id)"> </div>
+            <div class="square" id="item2" onclick="StartGame(this.id)"> </div>
+            <div class="square" id="item3" onclick="StartGame(this.id)"> </div>  
+
+        </div>
+
+        <div class="row1">
+            <div class="square" id="item4" onclick="StartGame(this.id)"> </div>
+            <div class="square" id="item5" onclick="StartGame(this.id)"> </div>
+            <div class="square" id="item6" onclick="StartGame(this.id)"> </div>  
+
+        </div>
+
+        <div class="row1">
+            <div class="square" id="item7" onclick="StartGame(this.id)"> </div>
+            <div class="square" id="item8" onclick="StartGame(this.id)"> </div>
+            <div class="square" id="item9" onclick="StartGame(this.id)"> </div>  
+        </div>  
+
+            <input class="result" id="Button" onclick="End()" type="submit" value="End Game">
+    </div>
+    </div>
+    
+    <script src="main.js"></script>
+
+</body>
+</html>

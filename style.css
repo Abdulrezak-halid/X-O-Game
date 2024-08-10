@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #192a32;
+}
+.game{
+    text-align: center;
+    /*üst kenar boşluğu*/
+}
+.square{
+    height: 100px;
+    width: 100px;
+    margin: 4px ;
+    background-color: #1f3540;
+    border-radius: 10px;
+    text-align: center;
+}
+.square:hover{
+ cursor: pointer;
+ background-color: #a8bec9;   
+} 
+.result:hover{
+    background-color: #f2b237;
+}
+.row1{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.score{
+    display: flex;
+    justify-content: center;
+    font-family:sans-serif;
+}
+.scr{
+    margin: 25px;
+    margin-top: 100px;
+    color: white;
+    height: 100%;
+    border-radius: 10px;
+    padding: 19px;
+    border: none; 
+}
+p{
+    color:beige;
+  
+}
+.playerOne{
+    background-color: #31c4be;
+    /*yazı Boyutu */
+    padding-left: 20px;
+    width: 225px;
+    height: 20px;
+    border-radius: 8px;
+    float: left;
+    margin: 50px;
+    text-align: left;
+   
+}
+.playerTwo{
+    background-color:#f2b237;
+    font-size: 17px;
+    padding-left: 20px;
+    width: 225px;
+    height: 20px;
+    border-radius: 8px;
+    float: left;
+    margin: 50px;
+    text-align: left;
+}
+/* 
+}
+arka plan rengi
+} */
+.tie{
+    background-color:#a8bec9;
+}
+.fa-o{
+    color: #f2b237;
+   
+}
+.fa-x{
+    color: #31c4be;
+   
+}
+.players{
+    display:flex;
+    justify-content: center;
+  
+   
+}
+.SwitchTurn{
+    width: 100px;
+    /* Boy uzunluğu */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #c64f14;
+  
+}
+span{
+    font: size 200px ;
+    color: #000000;
+
+}
+.result{
+   padding: 20px;
+    background-color: #a8bec9;
+    border-radius: 20px;
+    color: black;
+    margin: 15px;
+}
